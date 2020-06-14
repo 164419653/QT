@@ -117,7 +117,7 @@ bool MainWindow::initStatusBar()
 {
     bool ret = true;
     QStatusBar* sb = statusBar();
-    QLabel* label = new QLabel("QT NotePad");
+    QLabel* label = new QLabel("罗建义  Linux大作业");
 
     if( label != NULL )
     {

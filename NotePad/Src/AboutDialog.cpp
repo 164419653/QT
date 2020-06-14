@@ -23,10 +23,10 @@ AboutDialog::AboutDialog(QWidget *parent) :
     m_infoEdit.setPalette(p);
     m_infoEdit.setFrameStyle(QFrame::NoFrame);
     m_infoEdit.setReadOnly(true);
-    m_infoEdit.insertPlainText("NotePad Project\n\nPlatform: Qt 5.9\n\nVersion: 1.0.0\n\nCopyright: LY");
+    m_infoEdit.insertPlainText("NotePad DeadLineWork\n\nPlatform: Qt 5.9\n\nVersion: 1.0.0\n\nCopyright: :Ljy");
 
     m_qqLbl.move(22, 184);
-    m_qqLbl.setText("Person QQ: *********");
+    m_qqLbl.setText("Linux大作业，罗建义");
 
     m_closeBtn.setText("Close");
     m_closeBtn.move(273, 175);
